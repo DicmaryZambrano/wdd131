@@ -1,0 +1,93 @@
+/*normalization*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255)
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(27, 27, 27)
+}
+
+/* home layout */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal
+}
+
+#Home {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / 2fr 1fr;
+  margin: 0
+}
+
+header {
+  grid-column: 1 / 4;
+  background-color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255)
+}
+
+header h1 {
+  padding: 1rem
+}
+
+aside {
+  padding: 1rem;
+  grid-column: 2 / 4;
+  background-color: rgb(163, 206, 241)
+}
+
+main {
+  padding: 1rem;
+  background-color: rgb(231, 236, 239);
+  grid-column: 1/2
+}
+
+/* navigation */
+
+nav {
+  margin-top: 4rem;
+  background-color: rgb(39, 76, 119)
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center
+}
+
+nav ul li {
+  flex-grow: 1;
+  text-align: center
+}
+
+nav ul li a {
+  display: block;
+  padding: 30px 50px
+}
+
+nav ul li a:hover {
+  background-color: rgb(59, 101, 149)
+}
+
+footer {
+  padding: 2rem;
+  font-size: 26px;
+  grid-column: 1 / 4;
+  background-color: rgb(80, 81, 79);
+  color: white;
+  height: 150px;
+  text-align: center
+}
