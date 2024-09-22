@@ -179,8 +179,9 @@ footer p {
 
   #home main {
     display: grid;
+    max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 2rem;
+    margin: 2rem auto;
   }
 
   #home .about {
