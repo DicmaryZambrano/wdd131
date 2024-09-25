@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Open Sans", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(7, 7, 85);
+  font-weight: 700;
+}
+
+header,
+main,
+footer {
+  max-width: 640px;
+  margin: 1rem auto;
+  border: 5px solid rgb(109, 91, 190);
+  padding: 1rem;
+  background-color: rgb(151, 167, 255);
+}
+
+section {
+  padding: 1rem;
+  background-color: rgb(245, 246, 252);
+  border-radius: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
