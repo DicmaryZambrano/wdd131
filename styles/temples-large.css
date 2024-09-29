@@ -1,0 +1,56 @@
+@media screen and (min-width: 700px) {
+
+  /* General adjustments */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #360568;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+    height: 100%;
+    align-content: center;
+  }
+
+  button.nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    transition: none;
+  }
+
+  .navbar-link {
+    border: none;
+    width: auto;
+  }
+
+  .temple-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
