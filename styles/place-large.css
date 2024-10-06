@@ -1,4 +1,8 @@
 @media screen and (min-width: 700px) {
+  .weather-icon {
+    display: inline-block;
+  }
+
   .weather-icon::after {
     content: "⛅";
     font-size: 24px;

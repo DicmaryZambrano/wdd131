@@ -9,10 +9,10 @@
   <meta name="author" content="Dicmary Zambrano">
   <link rel="stylesheet" href="styles/place.css">
   <link rel="stylesheet" href="styles/place-large.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet">
   <script src="scripts/place.js" defer></script>
 </head>
 
@@ -21,15 +21,14 @@
     <h1>Explore Venezuela</h1>
     <span class="dark-stripe"></span>
   </header>
+
   <main>
     <div class="info-box">
-      <section></section>
       <picture>
         <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
         <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
-        <img src="images/hero-small.webp" alt="Image of a Cunaguaro" width="2" height="250">
+        <img src="images/hero-small.webp" alt="Image of a Cunaguaro" width="200" height="250">
       </picture>
-      </section>
 
       <section id="general-info">
         <h2>General Information</h2>
@@ -46,7 +45,7 @@
       <hr>
 
       <section id="weather">
-        <h2>Weather <span class="weather-icon"></svg></span><img class="weather-svg" src="/images/cloudy.svg"
+        <h2>Weather <span class="weather-icon"></span><img class="weather-svg" src="/images/cloudy.svg"
             alt="a cloudy icon"></h2>
         <p><span class="bold">Temperature:</span> <span id="temperature">25°C</span></p>
         <p><span class="bold">Conditions:</span> <span>Partly Cloudy</span></p>
@@ -54,10 +53,12 @@
         <p><span class="bold">Wind Chill:</span> <span id="wind-chill">Calculating...</span></p>
       </section>
     </div>
-    <footer>
-      <p>&copy; <span id="year"></span> Dicmary Zambrano, Venezuela</p>
-      <p>Last modified: <span id="last-modified"></span></p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Dicmary Zambrano, Venezuela</p>
+    <p>Last modified: <span id="last-modified"></span></p>
+  </footer>
 </body>
 
 </html>
