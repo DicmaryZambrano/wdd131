@@ -8,6 +8,10 @@
     height: auto;
   }
 
+  .weather-svg {
+    display: none;
+  }
+
   hr {
     display: none;
   }

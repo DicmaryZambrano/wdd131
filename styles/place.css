@@ -98,8 +98,11 @@ picture {
   text-align: center;
 }
 
-.weather-icon::after {
-  content: url("../images/cloudy.svg");
+.weather-icon {
+  display: none;
+}
+
+.weather-svg {
   display: block;
   width: 150px;
   height: 150px;
