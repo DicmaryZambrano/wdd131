@@ -1,0 +1,121 @@
+/* Box sizing */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6;
+  ;
+}
+
+:root {
+  --primary-color: #780000;
+  --secondary-color: #003049;
+  --background-color: #f8f9fa;
+  --transparent-background: #f8f9faea;
+  --text-on-dark-color: #f8f9fa;
+  --text-on-light-color: #0d1b2a;
+}
+
+/* General Styles */
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+}
+
+h1 {
+  color: var(--text-on-dark-color);
+}
+
+h2 {
+  color: var(--text-on-light-color);
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* Main */
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+hr {
+  border-color: var(--primary-color);
+}
+
+.dark-stripe {
+  display: block;
+  height: 20px;
+  background-color: var(--secondary-color);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+picture {
+  display: block;
+}
+
+#general-info,
+#weather {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#general-info h2 {
+  margin-bottom: 1rem;
+}
+
+#weather h2 {
+  text-align: center;
+}
+
+.weather-icon::after {
+  content: url("../images/cloudy.svg");
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+picture {
+  background: var(--primary-color);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
+  bottom: 0;
+}
