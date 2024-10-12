@@ -1,0 +1,73 @@
+@media screen and (min-width: 700px) {
+
+  /* General adjustments */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #360568;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .navbar-link a {
+    display: block;
+    padding: 0.5rem;
+    color: #ffffff;
+    height: 100%;
+  }
+
+  .navbar-link a:hover {
+    color: #fff678;
+    background-color: #360568;
+  }
+
+  button.nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    transition: none;
+  }
+
+  .navbar-link {
+    border: none;
+    width: auto;
+  }
+
+  #templeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: .5rem;
+  }
+
+  figure {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  figure img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+}

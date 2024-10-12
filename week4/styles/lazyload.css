@@ -1,0 +1,35 @@
+@keyframes fadeInFromBlack {
+  0% {
+    opacity: 0;
+    background-color: black;
+    /* Black background at start */
+  }
+
+  100% {
+    opacity: 1;
+    background-color: transparent;
+    /* Background fades away */
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Apply the fade-in animation to all images */
+img {
+  animation: fadeInFromBlack 2s ease-in-out;
+  display: block;
+  margin: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.grid {
+  max-width: 400px;
+  margin: 0 auto;
+}

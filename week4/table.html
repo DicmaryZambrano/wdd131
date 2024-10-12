@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design Principles</title>
+  <meta name="description" content="Table Example">
+  <meta name="author" content="Dicmary Zambrano">
+  <link rel="stylesheet" href="styles/table.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Table Example</h1>
+  </header>
+  <main>
+    <table id="table1">
+      <caption>Table 1: Account Feature Comparison</caption>
+      <thead>
+        <tr>
+          <!-- Adjusted the colspan to 3 to match the columns below -->
+          <th id="features" colspan="4" scope="colgroup">ACME Wildwest Services</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th id="basic" scope="col" headers="features">Basic</th>
+          <th id="premium" scope="col" headers="features">Premium</th>
+          <th id="deluxe" scope="col" headers="features">Deluxe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="feature-1" headers="basic features" scope="row">Feature 1</th>
+          <td headers="feature-1 basic features">✔️</td>
+          <td headers="feature-1 basic features">✔️</td>
+          <td headers="feature-1 basic features">✔️</td>
+        </tr>
+        <tr>
+          <th id="feature-2" headers="premium features" scope="row">Feature 2</th>
+          <td headers="feature-2 premium features">❌</td>
+          <td headers="feature-2 premium features">✔️</td>
+          <td headers="feature-2 premium features">✔️</td>
+        </tr>
+        <tr>
+          <th id="feature-3" headers="deluxe features" scope="row">Feature 3</th>
+          <td headers="feature-3 deluxe features">❌</td>
+          <td headers="feature-3 deluxe features">❌</td>
+          <td headers="feature-3 deluxe features">✔️</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    Footer Content
+  </footer>
+</body>
+
+</html>

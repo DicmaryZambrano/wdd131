@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lazy Load</title>
+  <meta name="description" content="Lazyload Example">
+  <meta name="author" content="Dicmary Zambrano">
+  <link rel="stylesheet" href="styles/lazyload.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
+    rel="stylesheet" />
+  <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Lazy Load</h1>
+  </header>
+  <main>
+    <div class="grid">
+      <picture><img src="https://placecats.com/400/600" alt="cat" loading="lazy" width="400" height="600"></picture>
+      <picture><img src="https://placecats.com/400/600" alt="cat" loading="lazy" width="400" height="600"></picture>
+      <picture><img src="https://placecats.com/400/600" alt="cat" loading="lazy" width="400" height="600"></picture>
+      <picture><img src="https://placecats.com/400/600" alt="cat" loading="lazy" width="400" height="600"></picture>
+      <picture><img src="https://placecats.com/400/600" alt="cat" loading="lazy" width="400" height="600"></picture>
+      <picture><img src="https://placecats.com/neo/400/600" alt="cat" loading="lazy" width="400" height="600">
+      </picture>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Dicmary Zambrano, Venezuela</p>
+    <p><span id="lastModified"></span></p>
+  </footer>
+</body>
+
+</html>
