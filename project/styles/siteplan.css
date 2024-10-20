@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #048894;
+  --primary-color: #047781;
   --secondary-color: #233d4d;
   --accent1-color: #cbf3f0;
   --accent2-color: #ffffff;
@@ -13,7 +13,7 @@
   --headline-color-on-color: #ffffff;
   --paragraph-color-on-white: #233d4d;
   --paragraph-color-on-color: #ffffff;
-  --paragraph-background-color: #048894;
+  --paragraph-background-color: #047781;
 }
 
 body {
