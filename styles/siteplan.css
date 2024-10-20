@@ -1,0 +1,139 @@
+:root {
+  --primary-color: #0fa3b1;
+  --secondary-color: #233d4d;
+  --accent1-color: #cbf3f0;
+  --accent2-color: #ffffff;
+  --accent3-color: #ff9f1c;
+
+  --heading1-font: "Noto Sans", Arial, sans-serif;
+  --heading2-font: "Noto Sans", Arial, sans-serif;
+  --paragraph-font: "Chivo", Verdana, sans-serif;
+
+  --headline-color-on-white: #ff9f1c;
+  --headline-color-on-color: #f0eff4;
+  --paragraph-color-on-white: #233d4d;
+  --paragraph-color-on-color: #f0eff4;
+  --paragraph-background-color: #0fa3b1;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: var(--paragraph-font);
+  font-size: 20px;
+  text-align: center;
+}
+
+.classic-gradient {
+  background-image: url('../images/paw-bg.webp');
+  background-position: top right;
+  background-size: 50% auto;
+}
+
+img {
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+
+  display: block;
+
+  margin: 0 auto;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading2-font);
+  color: var(--headline-color-on-white);
+}
+
+h1,
+h2 {
+  font-family: var(--heading1-font);
+  color: var(--headline-color-on-white);
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+
+header > h1,
+header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+
+.colors {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  height: 10px;
+  background-color: #999;
+}
+
+.colors td {
+  width: 15%;
+  height: 25em;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.primary {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2 {
+  color: var(--paragraph-color-on-white);
+  background-color: var(--accent2-color);
+}
+
+.accent3 {
+  background-color: var(--accent3-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+li {
+  text-align: left;
+}
+
+@media screen and (min-width: 700px) {}

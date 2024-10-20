@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple Album</title>
+  <meta name="description" content="A product review form.">
+  <meta name="author" content="Dicmary Zambrano">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/form-large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
+    rel="stylesheet" />
+  <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+
+  <main id="form">
+    <div class="form-wrapper">
+      <form method="get" action="review.html" class="wf1">
+        <fieldset>
+          <legend>Product Information</legend>
+
+          <label for="product">Product Name*</label>
+          <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+            <!-- Dynamically generated options using JavaScript -->
+          </select>
+
+          <fieldset>
+            <legend>Overall Rating*</legend>
+            <div class="star-rating">
+              <input type="radio" name="stars" id="star-5" value="5" required />
+              <label for="star-5"></label>
+
+              <input type="radio" name="stars" id="star-4" value="4" required />
+              <label for="star-4"></label>
+
+              <input type="radio" name="stars" id="star-3" value="3" required />
+              <label for="star-3"></label>
+
+              <input type="radio" name="stars" id="star-2" value="2" required />
+              <label for="star-2"></label>
+
+              <input type="radio" name="stars" id="star-1" value="1" required />
+              <label for="star-1"></label>
+            </div>
+          </fieldset>
+
+          <label for="installDate">Date of Installation*</label>
+          <input type="date" id="installDate" name="installDate" required>
+
+          <fieldset>
+            <legend>Useful Features</legend>
+            <label><input type="checkbox" id="feature1" name="features" value="feature1">Durability</label>
+            <label><input type="checkbox" id="feature2" name="features" value="feature2">Ease of Use</label>
+            <label><input type="checkbox" id="feature3" name="features" value="feature3">Performance</label>
+            <label><input type="checkbox" id="feature4" name="features" value="feature4">Design</label>
+          </fieldset>
+
+          <label for="review">Written Review</label>
+          <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review..."></textarea>
+
+          <label for="username">Your Name</label>
+          <input type="text" id="username" name="username" placeholder="Optional">
+        </fieldset>
+
+        <input class="btn-submit" type="submit" value="Send My Review">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Dicmary Zambrano, Venezuela</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>

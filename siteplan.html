@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiny Paws - Site Plan</title>
+  <meta name="author" content="Dicmary Zambrano" />
+  <meta name="description" content="Tiny Paws Site Plan" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles/siteplan.css" />
+  <script src="js/main.js" type="module"></script>
+</head>
+
+<body class="classic-gradient">
+  <header>
+    <h1>Site Plan</h1>
+    <h2>Dicmary Zambrano</h2>
+    <h2>WDD 131</h2>
+  </header>
+  <main>
+    <hr />
+    <h2>Overview</h2>
+    <p>
+      A website dedicated to "Tiny Paws," an animal rescue organization. The website will feature details about the
+      organization, profiles of adoptable animals, and an adoption form for potential adopters.
+    </p>
+
+    <h3>Site Name</h3>
+    <p>Tiny Paws</p>
+
+    <h3>Purpose</h3>
+    <p>
+      This website aims to connect rescued animals with loving homes by providing detailed profiles of adoptable pets
+      and an easy-to-use adoption form. It also serves to spread awareness about the organization's mission and
+      encourage donations.
+    </p>
+
+    <h3>Audience</h3>
+    <p>
+      The target audience includes animal lovers, potential adopters, and anyone interested in supporting animal
+      welfare.
+    </p>
+    <hr />
+
+    <h3>Scenarios</h3>
+    <ul>
+      <li>How can I adopt a dog or cat from "Tiny Paws"?</li>
+      <li>What animals are currently available for adoption?</li>
+      <li>How can I donate to support the rescue organization?</li>
+    </ul>
+
+    <h3>Core Features</h3>
+    <ul>
+      <li>Profiles of adoptable animals with photos and descriptions</li>
+      <li>An easy-to-complete adoption form stored temporarily using localStorage</li>
+      <li>Information about the organization's mission and recent adoptions</li>
+      <li>A call-to-action for donations to support the rescue efforts</li>
+    </ul>
+    <hr />
+
+    <h3>Data Sources</h3>
+    <ul>
+      <li>Local Storage (for temporarily storing adoption form details)</li>
+      <li>Json Files (for dynamically displaying information on the page)</li>
+    </ul>
+
+    <h3>Dynamics</h3>
+    <p>
+      The homepage will dynamically display the latest animals available for adoption. The adoption form will also be
+      interactive, with client-side validation to ensure a smooth user experience. When you click on a pet you can see
+      their details and when you decide to adopt the pet will be added to a local storage list of pets. They will be
+      displayed on the profile.
+    </p>
+
+    <h3>Animation Ideas</h3>
+    <p>
+      Hover effects on animal profiles, and animations for form submissions to enhance
+      interactivity. The hamburger menu will display the navigation options by coming out of the side.
+    </p>
+
+    <h2>Style Guide</h2>
+
+    <h3>Color Schema</h3>
+    <div class="table-container">
+      <table class="colors">
+        <tr>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Accent 1</th>
+          <th>Accent 2</th>
+          <th>Accent 3</th>
+        </tr>
+        <tr>
+          <td class="primary">[#0fa3b1]</td>
+          <td class="secondary">[#233d4d]</td>
+          <td class="accent1">[#cbf3f0]</td>
+          <td class="accent2">[#ffffff]</td>
+          <td class="accent3">[#ff9f1c]</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Typography</h3>
+    <h4>Heading Font: Noto Sans</h4>
+    <h4>Paragraph Font: Chivo</h4>
+
+    <h3>Normal Paragraph Example</h3>
+    <p>
+      "Tiny Paws" is dedicated to rescuing animals in need, providing them with medical care, and finding them loving
+      homes. Our mission is to give every animal the chance at a comfortable and happy life.
+    </p>
+
+    <h3>Wireframes</h3>
+    <h4>Mobile View Home</h4>
+    <img src="images/2-Homepage-Mobile.webp" alt="Mobile Wireframe" loading="lazy" width="512" height="1838">
+    <h4>Mobile View Adopt List</h4>
+    <img src="images/4-Pet-List-Mobile.webp" alt="Mobile Wireframe" loading="lazy" width="513" height="1443">
+    <h4>Mobile View Foster Form</h4>
+    <img src="images/6-Foster-Application-Mobile.webp" alt="Mobile Wireframe" loading="lazy" width="512" height="1323">
+    <h4>Mobile View User Profile</h4>
+    <img src="images/8-Foster-Pet-Mobile.webp" alt="Mobile Wireframe" loading="lazy" width="512" height="2290">
+    <h4>Desktop View Home</h4>
+    <img src="images/1-Homepage.webp" alt="Desktop Wireframe" loading="lazy" width="512" height="1168">
+    <h4>Desktop View Adopt List</h4>
+    <img src="images/3-Pet-List.webp" alt="Desktop Wireframe" loading="lazy" width="512" height="1012">
+    <h4>Desktop View Foster Form</h4>
+    <img src="images/5-Foster-Application.webp" alt="Desktop Wireframe" loading="lazy" width="512" height="1304">
+    <h4>Desktop View User Profile</h4>
+    <img src="images/7-Foster-Pet-List.webp" alt="Desktop Wireframe" loading="lazy" width="512" height="1496">
+
+  </main>
+</body>
+
+</html>
