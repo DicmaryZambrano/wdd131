@@ -1,0 +1,263 @@
+[
+  {
+    "pet_id": 1,
+    "name": "Fluffy",
+    "type": "bunny",
+    "image": "images/bunny1.webp",
+    "description": "A playful and fluffy bunny that loves to hop around.",
+    "birth_date": "2022-04-15",
+    "color": "white"
+  },
+  {
+    "pet_id": 2,
+    "name": "Thumper",
+    "type": "bunny",
+    "image": "images/bunny2.webp",
+    "description": "A curious bunny that enjoys digging and exploring.",
+    "birth_date": "2021-07-10",
+    "color": "grey"
+  },
+  {
+    "pet_id": 3,
+    "name": "Hopper",
+    "type": "bunny",
+    "image": "images/bunny3.webp",
+    "description": "An energetic bunny that loves to run and play.",
+    "birth_date": "2020-12-25",
+    "color": "brown"
+  },
+  {
+    "pet_id": 4,
+    "name": "Coco",
+    "type": "bunny",
+    "image": "images/bunny4.webp",
+    "description": "A shy bunny who prefers quiet and calm environments.",
+    "birth_date": "2021-01-15",
+    "color": "black"
+  },
+  {
+    "pet_id": 5,
+    "name": "Nibbles",
+    "type": "bunny",
+    "image": "images/bunny5.webp",
+    "description": "A friendly bunny that loves to be petted.",
+    "birth_date": "2022-06-30",
+    "color": "tan"
+  },
+  {
+    "pet_id": 6,
+    "name": "Snowball",
+    "type": "bunny",
+    "image": "images/bunny6.webp",
+    "description": "A fluffy, white bunny with a calm personality.",
+    "birth_date": "2023-03-01",
+    "color": "white"
+  },
+  {
+    "pet_id": 7,
+    "name": "Pip",
+    "type": "ginea-pig",
+    "image": "images/ginea1.webp",
+    "description": "A cute guinea pig that loves to squeak.",
+    "birth_date": "2022-08-05",
+    "color": "brown"
+  },
+  {
+    "pet_id": 8,
+    "name": "Squeaky",
+    "type": "ginea-pig",
+    "image": "images/ginea2.webp",
+    "description": "A social guinea pig that loves company.",
+    "birth_date": "2021-11-30",
+    "color": "white"
+  },
+  {
+    "pet_id": 9,
+    "name": "Fudge",
+    "type": "ginea-pig",
+    "image": "images/ginea3.webp",
+    "description": "A guinea pig with a sweet personality.",
+    "birth_date": "2020-05-12",
+    "color": "black and white"
+  },
+  {
+    "pet_id": 10,
+    "name": "Oreo",
+    "type": "ginea-pig",
+    "image": "images/ginea4.webp",
+    "description": "A playful guinea pig that loves to explore.",
+    "birth_date": "2021-02-20",
+    "color": "black"
+  },
+  {
+    "pet_id": 11,
+    "name": "Pumpkin",
+    "type": "ginea-pig",
+    "image": "images/ginea5.webp",
+    "description": "A fluffy and lovable guinea pig.",
+    "birth_date": "2022-03-15",
+    "color": "orange"
+  },
+  {
+    "pet_id": 12,
+    "name": "Nutmeg",
+    "type": "ginea-pig",
+    "image": "images/ginea6.webp",
+    "description": "A small guinea pig with a big heart.",
+    "birth_date": "2020-11-22",
+    "color": "tan and white"
+  },
+  {
+    "pet_id": 13,
+    "name": "Whiskers",
+    "type": "rat",
+    "image": "images/rat1.webp",
+    "description": "A smart rat that enjoys solving puzzles.",
+    "birth_date": "2020-03-21",
+    "color": "grey"
+  },
+  {
+    "pet_id": 14,
+    "name": "Mischief",
+    "type": "rat",
+    "image": "images/rat2.webp",
+    "description": "An adventurous rat with a lot of energy.",
+    "birth_date": "2021-01-10",
+    "color": "white"
+  },
+  {
+    "pet_id": 15,
+    "name": "Squeak",
+    "type": "rat",
+    "image": "images/rat3.webp",
+    "description": "A tiny rat that loves to squeak and play.",
+    "birth_date": "2022-07-30",
+    "color": "black"
+  },
+  {
+    "pet_id": 16,
+    "name": "Peanut",
+    "type": "rat",
+    "image": "images/rat4.webp",
+    "description": "A gentle rat with a soft fur coat.",
+    "birth_date": "2020-06-25",
+    "color": "brown"
+  },
+  {
+    "pet_id": 17,
+    "name": "Shadow",
+    "type": "rat",
+    "image": "images/rat5.webp",
+    "description": "A sneaky rat that loves to hide.",
+    "birth_date": "2019-09-10",
+    "color": "grey"
+  },
+  {
+    "pet_id": 18,
+    "name": "Pepper",
+    "type": "rat",
+    "image": "images/rat6.webp",
+    "description": "A curious and active rat.",
+    "birth_date": "2021-12-05",
+    "color": "white and black"
+  },
+  {
+    "pet_id": 19,
+    "name": "Midnight",
+    "type": "cat",
+    "image": "images/cat1.webp",
+    "description": "A sleek black cat that is very affectionate.",
+    "birth_date": "2019-10-15",
+    "color": "black"
+  },
+  {
+    "pet_id": 20,
+    "name": "Whiskers",
+    "type": "cat",
+    "image": "images/cat2.webp",
+    "description": "A playful cat that enjoys chasing toys.",
+    "birth_date": "2020-04-22",
+    "color": "grey"
+  },
+  {
+    "pet_id": 21,
+    "name": "Mittens",
+    "type": "cat",
+    "image": "images/cat3.webp",
+    "description": "A cute cat with white paws and a gentle nature.",
+    "birth_date": "2021-03-30",
+    "color": "white and brown"
+  },
+  {
+    "pet_id": 22,
+    "name": "Tiger",
+    "type": "cat",
+    "image": "images/cat4.webp",
+    "description": "A bold cat with striped fur.",
+    "birth_date": "2018-08-14",
+    "color": "orange"
+  },
+  {
+    "pet_id": 23,
+    "name": "Simba",
+    "type": "cat",
+    "image": "images/cat5.webp",
+    "description": "A regal cat with a thick, golden coat.",
+    "birth_date": "2019-12-12",
+    "color": "golden"
+  },
+  {
+    "pet_id": 24,
+    "name": "Snowflake",
+    "type": "cat",
+    "image": "images/cat6.webp",
+    "description": "A fluffy white cat with a sweet demeanor.",
+    "birth_date": "2022-02-18",
+    "color": "white"
+  },
+  {
+    "pet_id": 25,
+    "name": "Buddy",
+    "type": "dog",
+    "image": "images/dog1.webp",
+    "description": "A playful Golden Retriever who loves fetch.",
+    "birth_date": "2021-05-15",
+    "color": "golden"
+  },
+  {
+    "pet_id": 26,
+    "name": "Max",
+    "type": "dog",
+    "image": "images/dog2.webp",
+    "description": "A loyal German Shepherd, always alert and protective.",
+    "birth_date": "2020-08-03",
+    "color": "black and tan"
+  },
+  {
+    "pet_id": 27,
+    "name": "Bella",
+    "type": "dog",
+    "image": "images/dog3.webp",
+    "description": "A friendly Labrador who loves swimming.",
+    "birth_date": "2019-11-10",
+    "color": "yellow"
+  },
+  {
+    "pet_id": 28,
+    "name": "Charlie",
+    "type": "dog",
+    "image": "images/dog4.webp",
+    "description": "A small but energetic Jack Russell Terrier.",
+    "birth_date": "2022-04-22",
+    "color": "white and brown"
+  },
+  {
+    "pet_id": 29,
+    "name": "Daisy",
+    "type": "dog",
+    "image": "images/dog5.webp",
+    "description": "A cheerful Beagle with a nose for adventure.",
+    "birth_date": "2021-06-08",
+    "color": "tricolor"
+  }
+]

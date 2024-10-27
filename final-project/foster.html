@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiny Paws - Foster Form </title>
+  <meta name="author" content="Dicmary Zambrano" />
+  <meta name="description" content="Tiny Paws for Animal Adoption" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;700;800;900&family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles/style-small.css" />
+  <link rel="stylesheet" href="styles/style-large.css" />
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-box">
+      <div class="logo">
+        <a href="home.html">
+          <img src="images/paw-logo.webp" alt="Tiny Paws Logo" height="152" width="100">
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li class="navbar-link"><a href="foster.html">Foster Application</a></li>
+          <li class="navbar-link"><a href="pets.html">Pet Gallery</a></li>
+          <li class="navbar-link"><a href="profile.html">My Profile</a></li>
+          <li class="navbar-link cta">
+            <a class="donate" href="thank-you.html">Donate</a>
+            <a class="volunteer" href="foster.html">Volunteer</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="mobile-menu" aria-label="Toggle navigation menu" type="button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+  <main id="foster-form" class="paw-bg">
+    <div class="form-wrapper">
+      <h1>You are one step closer to becoming a volunteer!</h1>
+      <form method="post" action="#" id="foster-application" class="wf1">
+        <fieldset>
+          <legend>Foster Application Form</legend>
+
+          <label for="firstName">First Name*</label>
+          <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+
+          <label for="lastName">Last Name*</label>
+          <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+
+          <label for="email">Email Address*</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+          <label for="phone">Phone Number*</label>
+          <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+          <label for="address">Home Address*</label>
+          <textarea id="address" name="address" rows="3" required placeholder="Enter your home address"></textarea>
+
+          <fieldset>
+            <legend>Preferred Animal Type*</legend>
+            <label><input type="radio" name="animalType" value="dog" required> Dog</label>
+            <label><input type="radio" name="animalType" value="cat"> Cat</label>
+            <label><input type="radio" name="animalType" value="other"> Other</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Experience with Animals</legend>
+            <label><input type="checkbox" id="experience1" name="experience" value="previousFoster"> Previously
+              Fostered</label>
+            <label><input type="checkbox" id="experience2" name="experience" value="ownPets"> Own Pets</label>
+            <label><input type="checkbox" id="experience3" name="experience" value="volunteered"> Volunteered at
+              Shelters</label>
+          </fieldset>
+
+          <label for="availability">Availability*</label>
+          <select id="availability" name="availability" required>
+            <option value="" disabled selected>Select your availability...</option>
+            <option value="full-time">Full-Time</option>
+            <option value="part-time">Part-Time</option>
+            <option value="weekends">Weekends Only</option>
+          </select>
+
+          <label for="message">Message (Optional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any additional message..."></textarea>
+        </fieldset>
+
+        <input class="btn-submit" type="submit" value="Submit Application">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="images/paw-logo.webp" alt="Tiny Paws Logo" height="100" width="80">
+    </div>
+
+    <ul class="footer-nav">
+      <li><a href="foster.html">Foster Application</a></li>
+      <li><a href="pets.html">Animal Gallery</a></li>
+      <li><a href="profile.html">My Profile</a></li>
+      <li><a href="thank-you.html">Donate</a></li>
+    </ul>
+    <div class="footer-bottom">
+      <div class="social-icons">
+        <a href="#"><img src="images/instagram.svg" alt="Instagram icon" loading="lazy"></a>
+        <a href="#"><img src="images/facebook.svg" alt="Facebook icon" loading="lazy"></a>
+        <a href="#"><img src="images/twitter.svg" alt="Twitter icon" loading="lazy"></a>
+      </div>
+    </div>
+    <p>&copy; <span id="year"></span> Tiny Paws. Privacy Policy | Terms of Service</p>
+    <p>Dicmary Zambrano - WDD131 Project <br> <span id="lastModified"></span></p>
+  </footer>
+  </div>
+</body>
+
+</html>
