@@ -28,5 +28,5 @@ fosterForm.addEventListener("submit", (event) => {
 
   alert("Your foster application has been submitted and saved!");
 
-  window.location.href = "final-project/thank-you.html";
+  window.location.href = "/wdd131final-project/thank-you.html";
 });
